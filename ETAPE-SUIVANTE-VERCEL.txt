@@ -1,0 +1,22 @@
+CONFIGURATION SUPABASE TERMINEE
+
+Le fichier .env.local contient maintenant :
+- l'URL publique du projet Supabase ;
+- la clé publique sb_publishable ;
+- l'adresse administrateur joshouatritto2020@gmail.com.
+
+PROCHAINE ETAPE : DEPLOIEMENT SUR VERCEL
+
+Dans Vercel, ajoute ces trois variables dans Settings > Environment Variables :
+
+NEXT_PUBLIC_SUPABASE_URL
+https://nnhypzhduugktbqhkvfq.supabase.co
+
+NEXT_PUBLIC_SUPABASE_ANON_KEY
+[recopie la valeur du fichier .env.local]
+
+NEXT_PUBLIC_ADMIN_EMAIL
+joshouatritto2020@gmail.com
+
+Ne publie jamais de clé sb_secret.
+Après avoir ajouté les variables, lance ou relance le déploiement.
